@@ -15,6 +15,7 @@
 		758758321FDFC6DD001C4B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758758311FDFC6DD001C4B8C /* main.m */; };
 		7587583C1FDFC6DD001C4B8C /* ZPKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7587583B1FDFC6DD001C4B8C /* ZPKitTests.m */; };
 		758758471FDFC6DD001C4B8C /* ZPKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 758758461FDFC6DD001C4B8C /* ZPKitUITests.m */; };
+		758758571FDFC831001C4B8C /* ZYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 758758561FDFC831001C4B8C /* ZYObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		758758421FDFC6DD001C4B8C /* ZPKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		758758461FDFC6DD001C4B8C /* ZPKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPKitUITests.m; sourceTree = "<group>"; };
 		758758481FDFC6DD001C4B8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758758551FDFC831001C4B8C /* ZYObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYObject.h; sourceTree = "<group>"; };
+		758758561FDFC831001C4B8C /* ZYObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		758758211FDFC6DD001C4B8C /* ZPKit */ = {
 			isa = PBXGroup;
 			children = (
+				758758541FDFC823001C4B8C /* Class */,
 				758758221FDFC6DD001C4B8C /* AppDelegate.h */,
 				758758231FDFC6DD001C4B8C /* AppDelegate.m */,
 				758758251FDFC6DD001C4B8C /* ViewController.h */,
@@ -131,6 +135,15 @@
 			);
 			path = ZPKitUITests;
 			sourceTree = "<group>";
+		};
+		758758541FDFC823001C4B8C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				758758551FDFC831001C4B8C /* ZYObject.h */,
+				758758561FDFC831001C4B8C /* ZYObject.m */,
+			);
+			path = Class;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -268,6 +281,7 @@
 				758758271FDFC6DD001C4B8C /* ViewController.m in Sources */,
 				758758321FDFC6DD001C4B8C /* main.m in Sources */,
 				758758241FDFC6DD001C4B8C /* AppDelegate.m in Sources */,
+				758758571FDFC831001C4B8C /* ZYObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
