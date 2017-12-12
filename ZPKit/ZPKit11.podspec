@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ZPKit"
+  s.name         = "ZPKit11"
   s.version      = "0.0.2"
   s.summary      = "A good thing"
 
