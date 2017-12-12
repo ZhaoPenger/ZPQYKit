@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ZPKit.podspec"
+  s.name         = "ZPKit"
   s.version      = "0.0.1"
   s.summary      = "A short description of ZPKit.podspec."
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   this is my first text pod
                    DESC
 
-  s.homepage     = "https://github.com/ZhaoPenger/ZPKit.podspec"
+  s.homepage     = "https://github.com/ZhaoPenger/ZPKit"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/ZPKit.podspec.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ZhaoPenger/ZPKit.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
