@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ZPKit"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ZPKit.podspec."
+  s.summary      = "A good thing"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   this is my first text pod
                    DESC
 
-  s.homepage     = "https://github.com/ZhaoPenger/ZPKit"
+  s.homepage     = "https://github.com/ZhaoPenger/ZPKit/tree/master/ZPKit"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Class/**/*.{h,m}"
+  s.source_files  = "Class/*.*"
  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
