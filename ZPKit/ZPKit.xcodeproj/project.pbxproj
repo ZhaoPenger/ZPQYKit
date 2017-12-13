@@ -17,6 +17,7 @@
 		758758471FDFC6DD001C4B8C /* ZPKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 758758461FDFC6DD001C4B8C /* ZPKitUITests.m */; };
 		758758571FDFC831001C4B8C /* ZYObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 758758561FDFC831001C4B8C /* ZYObject.m */; };
 		7587585A1FDFD3C4001C4B8C /* ZPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 758758591FDFD3C4001C4B8C /* ZPView.m */; };
+		758842BF1FE10E3000A0544C /* ZPViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 758842BE1FE10E3000A0544C /* ZPViews.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		758758561FDFC831001C4B8C /* ZYObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYObject.m; sourceTree = "<group>"; };
 		758758581FDFD3C4001C4B8C /* ZPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPView.h; sourceTree = "<group>"; };
 		758758591FDFD3C4001C4B8C /* ZPView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPView.m; sourceTree = "<group>"; };
+		758842BD1FE10E3000A0544C /* ZPViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPViews.h; sourceTree = "<group>"; };
+		758842BE1FE10E3000A0544C /* ZPViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPViews.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,7 @@
 		758758541FDFC823001C4B8C /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				758842BC1FE10E2300A0544C /* View */,
 				758758551FDFC831001C4B8C /* ZYObject.h */,
 				758758561FDFC831001C4B8C /* ZYObject.m */,
 				758758581FDFD3C4001C4B8C /* ZPView.h */,
@@ -149,6 +153,15 @@
 			);
 			path = Class;
 			sourceTree = SOURCE_ROOT;
+		};
+		758842BC1FE10E2300A0544C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				758842BD1FE10E3000A0544C /* ZPViews.h */,
+				758842BE1FE10E3000A0544C /* ZPViews.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -283,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758842BF1FE10E3000A0544C /* ZPViews.m in Sources */,
 				758758271FDFC6DD001C4B8C /* ViewController.m in Sources */,
 				758758321FDFC6DD001C4B8C /* main.m in Sources */,
 				758758241FDFC6DD001C4B8C /* AppDelegate.m in Sources */,
